@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instagram Insights</title>
+    <script src="script/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Freight+Sans' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="insights()">
+    <h1>Instagram Insights</h1>
+    <div class="input">
+        <label>
+            <input type="file" id="likesJSON" accept=".json" />
+            <input type="file" id="commentsJSON" accept=".json" />
+            <input type="file" id="messagesJSON" accept=".json" />
+            <input type="file" id="savedJSON" accept=".json" />
+        </label>
+    </div>
+    <br />
+    <div class="output">
+        <p id="likeInsight"></p>
+        <p id="commentInsight"></p>
+        <p id="messageInsight"></p>
+        <p id="savedInsight"></p>
+    </div>
+    <a href="moreDetails.html" id="seeMore"></a>
+</body>
+
+</html>
