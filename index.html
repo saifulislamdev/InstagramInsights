@@ -9,19 +9,28 @@
     <script src="script/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="style/style.css" type="text/css" rel="stylesheet">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Freight+Sans' rel='stylesheet' type='text/css'> -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body onload="insights()">
     <h1>Instagram Insights</h1>
     <div class="input">
-        <label>
-            <input type="file" id="likesJSON" accept=".json" />
-            <input type="file" id="commentsJSON" accept=".json" />
-            <input type="file" id="messagesJSON" accept=".json" />
-            <input type="file" id="savedJSON" accept=".json" />
-        </label>
+        <button>
+            <p>Upload likes.json here</p>
+            <input type="file" accept=".json" id="likesJSON"/>
+        </button>
+        <button>
+            <p>Upload comments.json here</p>
+            <input type="file" accept=".json" id="commentsJSON" />
+        </button>
+        <button>
+            <p>Upload messages.json here</p>
+            <input type="file" accept=".json" id="messagesJSON" />
+        </button>
+        <button>
+            <p>Upload saved.json here</p>
+            <input type="file" accept=".json" id="savedJSON"/>
+        </button>  
     </div>
     <br />
     <div class="output">
@@ -30,7 +39,7 @@
         <p id="messageInsight"></p>
         <p id="savedInsight"></p>
     </div>
-    <a href="moreDetails.html" id="seeMore"></a>
+    <a href="moreDetails.html" target="_blank" id="seeMore"></a>
 </body>
 
 </html>

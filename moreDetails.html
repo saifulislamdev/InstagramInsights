@@ -7,23 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>More Details</title>
     <script src="script/moreDetails.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    <!-- <link href="style.css" type="text/css" rel="stylesheet"> -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Freight+Sans' rel='stylesheet' type='text/css'> -->
+    <link href="style/moreDetails.css" type="text/css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body onload="main()">
-    <a href="likes.html">likes</a>
-    <a href="comments.html">comments</a>
-    <a href="messages.html">messages</a>
-    <a href="saved.html">saved</a>
-    <table>
-        <p id="likes"></p>
-        <p id="comments"></p>
-        <p id="messages"></p>
-        <p id="saved"></p>
-    </table>
+    <div class="likesBox">
+        <div id="lHeading"><a><b>LIKES</b></a></div>
+        <a id="likes"></a>
+    </div>
+    <div class="commentsBox">
+        <div id="cHeading"><a><b>COMMENTS</b></a></div>
+        <a id="comments"></a>
+    </div>
+    <div class="messagesBox">
+        <div id="mHeading"><a><b>MESSAGES</b></a></div>
+        <a id="messages"></a>
+    </div>
+    <div class="savedBox">
+        <div id="sHeading"><a><b>SAVED</b></a></div>
+        <a id="saved"></a>
+    </div>
+    <div id="moreDetailsL"><a href="likes.html" class="moreDetailsT">click here to see more details</a></div>
+    <div id="moreDetailsC"><a href="comments.html" class="moreDetailsT">click here to see more details</a></div>
+    <div id="moreDetailsM"><a href="messages.html" class="moreDetailsT">click here to see more details</a></div>
+    <div id="moreDetailsS"><a href="saved.html" class="moreDetailsT" >click here to see more details</a></div>
 </body>
-
 </html>
