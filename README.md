@@ -1,38 +1,39 @@
 # InstagramInsights
-Live at: https://saifulislamny.github.io/InstagramInsights/
-Learn how to use application: [YouTube video will be uploaded upon completion]
-Find account data through here: [will be uploaded soon]
 
-Personal Project
+Personal Project  
+
+Live at: https://saifulislamny.github.io/InstagramInsights/  
+Learn how to use application: [YouTube video will be uploaded upon completion]  
+Find account data through here: [will be uploaded soon]  
 
 ## Run application:
 `$ open index.html`
 
 ## File Structure:
-.
-├── README.md
-├── comments.html
-├── index.html
-├── likes.html
-├── messages.html
-├── moreDetails.html
-├── plan.pdf
-├── saved.html
-├── script
-│   ├── comments.js
-│   ├── likes.js
-│   ├── messages.js
-│   ├── moreDetails.js
-│   ├── saved.js
-│   └── script.js
-└── style
-    ├── comments.css
-    ├── likes.css
-    ├── messages.css
-    ├── moreDetails.css
-    ├── saved.css
-    └── style.css
-    
+.  
+ |── README.md  
+ |── comments.html  
+ |── index.html  
+ |── likes.html  
+ |── messages.html  
+ |── moreDetails.html  
+ |── plan.pdf  
+ |── saved.html  
+ |── script  
+│    |── comments.js  
+│    |── likes.js  
+│    |── messages.js  
+│    |── moreDetails.js  
+│    |── saved.js  
+│   └── script.js  
+└── style  
+     |── comments.css  
+     |── likes.css  
+     |── messages.css  
+     |── moreDetails.css  
+     |── saved.css  
+    └── style.css  
+
 ## Bugs and Issues:
 ### Bugs:
 * Program can't distinguish user from other users in message insights
