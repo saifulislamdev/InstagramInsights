@@ -1,4 +1,4 @@
-# Instagram Insights
+# Instagram Insights [Deprecated]
 
 Personal Project  
 
