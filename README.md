@@ -2,7 +2,7 @@
 
 Personal Project  
 
-Live at: https://saifulislamdev.github.io/InstagramInsights/  
+Live at: https://saifulislamdev.github.io/instagram-insights/  
 
 ## Run application:
 `$ open index.html`
