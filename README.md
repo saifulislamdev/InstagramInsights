@@ -1,10 +1,8 @@
-# InstagramInsights
+# Instagram Insights
 
 Personal Project  
 
 Live at: https://saifulislamdev.github.io/InstagramInsights/  
-Learn how to use application: [YouTube video will be uploaded upon completion]  
-Find account data through here: [will be uploaded soon]  
 
 ## Run application:
 `$ open index.html`
